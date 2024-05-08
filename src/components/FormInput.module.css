@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+
+  & p {
+    font-family: "Covered By Your Grace";
+    font-weight: 400;
+    font-size: 3.6rem;
+    color: #2da950;
+  }
+
+  & h1 {
+    font-weight: 600;
+    font-size: 5.6rem;
+    color: #1c1c1c;
+    width: 58rem;
+    line-height: 1.1;
+  }
+}
+
+.form div {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form input {
+  width: 41.7rem;
+  height: 7.5rem;
+  border-radius: 6.4rem;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  outline: none;
+  padding: 24px 36px;
+  background-color: #efefef;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.form input:focus {
+  border: 1px solid #537ff1;
+  background-color: #f5f8ff;
+}
+
+.form input::placeholder {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #827a7a;
+}
+
+.form button {
+  margin-top: 2rem;
+
+  &:disabled {
+    background-color: #c9c9c9;
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,18 @@
+.header {
+  border: 1px solid #eaeaea;
+  border-radius: 6.5rem;
+  margin: 2rem;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  height: 111.17px;
+  padding: 16.97px 20.89px 16.97px 52.22px;
+  align-items: center;
+}
+
+.header div {
+  display: flex;
+  gap: 1rem;
+}

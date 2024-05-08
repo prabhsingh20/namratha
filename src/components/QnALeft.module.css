@@ -1,0 +1,21 @@
+.left {
+  display: flex;
+  flex-direction: column;
+
+  & p {
+    font-family: "Covered By Your Grace";
+    font-weight: 400;
+    font-size: 3.2rem;
+    color: #9e9d9d;
+  }
+
+  & h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    color: #1c1c1c;
+  }
+}
+
+.heading {
+  padding: 5rem 7rem;
+}

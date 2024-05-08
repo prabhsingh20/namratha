@@ -1,0 +1,29 @@
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 10rem 8rem;
+
+  & h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1c1c1c;
+    cursor: pointer;
+    padding: 1rem 0;
+    gap: 18rem;
+  }
+
+  & p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #617275;
+    padding: 1rem 1rem 2rem 0;
+  }
+}
+.line {
+  margin-top: 0.6rem;
+  border-bottom: 1px solid #d7d7d7;
+}

@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 9rem;
+}
+
+.header p {
+  font-family: "Covered By Your Grace";
+  font-weight: 400;
+  font-size: 3.6rem;
+  color: #2da950;
+}
+
+.header h1 {
+  color: #1c1c1c;
+  font-weight: 600;
+  font-size: 5.6rem;
+  width: 60rem;
+}

@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 5rem;
+}
+
+.close {
+  font-size: 2.4rem;
+  border: 1px solid #cacaca;
+  border-radius: 40px;
+  padding: 1.4rem;
+  cursor: pointer;
+}

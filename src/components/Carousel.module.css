@@ -1,0 +1,56 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #1c1c1c;
+  width: 42rem;
+}
+.tab {
+  padding: 10px 0;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dots {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #e4e3e3;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #cad0cb;
+  }
+}
+
+.dot.active {
+  background-color: #2da950;
+}
+.hidden {
+  display: none;
+}
+
+.carousel button {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  width: 245px;
+  margin-top: 12rem;
+  font-size: 2rem;
+}
