@@ -4,6 +4,7 @@ import styles from "./QnARight.module.css";
 
 function QnARight() {
   const [openQuestionIndex, setOpenQuestionIndex] = useState(null);
+  const totalQuestions = questionsArray.length;
 
   const toggleAnswer = (index) => {
     setOpenQuestionIndex(openQuestionIndex === index ? null : index);
@@ -22,7 +23,7 @@ function QnARight() {
             )}
           </h1>
           {openQuestionIndex === index && <p>{questions.answer}</p>}
-          <div className={styles.line}></div>
+          {index !== totalQuestions - 1 && <div className={styles.line}></div>}
         </div>
       ))}
     </div>
