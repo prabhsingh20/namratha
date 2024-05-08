@@ -3,8 +3,8 @@ import styles from "./FormInput.module.css";
 import Error from "./Error";
 
 function FormInput({ success, setSuccess }) {
-  const [userName, setUserName] = useState("Prabh");
-  const [userEmail, setUserEmail] = useState("Prabh@gmail.com");
+  const [userName, setUserName] = useState("");
+  const [userEmail, setUserEmail] = useState("");
   const [error, setError] = useState("");
 
   const handleSubmit = (e) => {

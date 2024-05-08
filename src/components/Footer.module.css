@@ -6,6 +6,15 @@
   background-color: #f5f5f5;
   padding: 6rem;
   border-radius: 4rem;
+
+  & span {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+  }
+
+  & p {
+    font-weight: 600;
+  }
 }
 
 .footer div {
