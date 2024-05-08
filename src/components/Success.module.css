@@ -1,0 +1,50 @@
+.success {
+  margin: 2rem 5rem;
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6rem;
+  }
+
+  & .heading {
+    font-family: "Covered By Your Grace";
+    font-weight: 400;
+    font-size: 3.6rem;
+    color: #2da950;
+    margin-top: 1rem;
+  }
+
+  & h1 {
+    font-weight: 600;
+    font-size: 5.6rem;
+    color: #1c1c1c;
+    width: 58rem;
+    line-height: 1.1;
+  }
+
+  & p {
+    margin-top: 0.9rem;
+    font-weight: 500;
+    font-size: 2.7rem;
+    color: #727272;
+    width: 72rem;
+  }
+}
+
+.redirect {
+  & p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 9rem;
+  }
+
+  & span {
+    font-weight: 700;
+    color: #1c1c1c;
+  }
+}

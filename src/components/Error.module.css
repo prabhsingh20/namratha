@@ -1,0 +1,16 @@
+.error {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #ff0808;
+
+  & span {
+    border-radius: 5rem;
+    background-color: #ff0808;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}

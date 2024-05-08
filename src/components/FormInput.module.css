@@ -6,7 +6,7 @@
   text-align: center;
   margin-top: 3rem;
 
-  & p {
+  & .heading {
     font-family: "Covered By Your Grace";
     font-weight: 400;
     font-size: 3.6rem;
@@ -35,7 +35,7 @@
   border-radius: 6.4rem;
   border: 1px solid rgba(0, 0, 0, 0.02);
   outline: none;
-  padding: 24px 36px;
+  padding: 2.4rem 3.6rem;
   background-color: #efefef;
   font-size: 2rem;
   font-weight: 500;
